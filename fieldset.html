@@ -1,0 +1,41 @@
+<!--fieldset: Utilizado para agrupar elementos dentro de un formulario-->
+<!--legend: Para el contenido de fieldset-->
+<!--file: Para cargar archivos de la compu y mandarlos en el formulario-->
+<!--meter: Valor dentro del rango conocido-->
+<!--Progress: Progreso de una tarea-->
+<!--textarea-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <for>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <div>
+            <label for="name">Nombre</label>
+            <input type="text", id="name">
+            </div>
+            <label for="surname">Apellidos</label>
+            <input type="text" id="surname">
+        </fieldset>
+
+        <input type="file">
+
+        <label for="fuel">Combustible</label>
+        <meter id="fuel" min="0" max="100" value="60" low="30" high="75" optimum="50"></meter>
+        <label for="task">Tarea1</label>
+        <progress id="task" max="100" value="75"></progress>
+
+        <div>
+        <label for="message">Mensaje</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+    </for>
+</body>
+</html>

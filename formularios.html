@@ -1,0 +1,34 @@
+<!--Placeholder: Da una pista al usuario de lo que tiene que eintroducir--->
+<!--required: Hace que un campo sea obligatorio-->
+<!--readonly: Hace que un campo sea de solo lectura-->
+<!--min-max: establece el minimo y máximo de un campp numerico-->
+<!--maxlenght-minlenght: Establecer el minimo y máximo de caracteres de un campo de textp-->
+<!--caracter de campo de texto-->
+<!--selected: Equivalente a checked en los selects, sirve para establecer una opción por defecto-->
+<!--disabled: Desactiva el campo, no se podrá escribir en el autofocus-->
+<!--autofocus: Para poner el foco por defecto al cargar el formulario-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text">
+        <input type="text" value="Hola" readonly>
+        <input type="text" value="Hola" disabled>
+        <input type="text" placeholder="Introduce tu nombre" required>
+        <select name="numbers">
+            <option value="one" selected>One</option>
+            <option value="Two">Two</option>
+        </select>
+        <input type="number" min="5", max="15">
+        <input type="text" minlength="3" maxlength="5" autofocus>
+        <input type="submit">
+    </form>
+</body>
+</html>
